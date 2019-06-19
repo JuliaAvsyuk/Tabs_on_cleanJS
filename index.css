@@ -18,3 +18,13 @@
 .tabs-nav__item.is-active {
     border-color: aqua;
 }
+
+.tab {
+    background-color: #f2f2f2;
+    display: none;
+    padding: 20px;
+}
+
+.tab.is-active {
+    display: block;
+}
