@@ -1,0 +1,20 @@
+.wrapper {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.tabs-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs-nav__item {
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    padding: 20px;
+    flex: 1;
+}
+
+.tabs-nav__item.is-active {
+    border-color: aqua;
+}
